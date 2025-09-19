@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+// 함수형 컴포넌트
 function App() {
   return (
     <div className="App">
@@ -22,4 +23,5 @@ function App() {
   );
 }
 
+// 다른 파일에서 사용할 수 있도록 export 한다.
 export default App;
